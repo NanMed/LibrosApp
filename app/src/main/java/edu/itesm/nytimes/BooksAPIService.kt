@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 
 interface APIService {
-    @GET("hardcover-fiction.json?api-key=E8MIDB9NM3B8VEdXSlsKEKRsdAdraODV")
+    @GET("hardcover-fiction.json?api-key=YOURKEY")
     suspend fun getBooks() : Response<Results>
 }
